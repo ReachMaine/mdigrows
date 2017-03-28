@@ -40,9 +40,11 @@ i.fa-pull-right {
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
-#header-wrap .logo {
-  padding-bottom: 0px;
-  margin-bottom: -10px; }
+#header-wrap {
+  line-height: 135px !important; }
+  #header-wrap .logo {
+    padding-bottom: 0px;
+    margin-bottom: -10px; }
 
 /*** styling of content */
 /** sidebar
