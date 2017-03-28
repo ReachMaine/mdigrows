@@ -17,7 +17,12 @@ Version: 1.2
 
 }
 /*  header stuff - here */
-
+#header-wrap {
+	.logo {
+		padding-bottom: 0px;
+		margin-bottom: -10px;
+	}
+}
 /*** styling of content */
 
 /** sidebar
