@@ -51,8 +51,9 @@ i.fa-pull-right {
 
 /** footer **/
 #reach-bottom-cta {
-  margin-top: 40px;
-  margin-bottom: 40px; }
+  background-color: #a9d689; }
+  #reach-bottom-cta .widget {
+    margin-bottom: 0px; }
 
 #footer a.reach-logo {
   color: white; }
