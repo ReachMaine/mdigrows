@@ -17,13 +17,32 @@ Version: 1.2
 
 }
 /*  header stuff - here */
-#header-wrap {
-	line-height: 135px!important;
-	.logo {
-		padding-bottom: 0px;
-		margin-bottom: -10px;
+#header-inner-wrap {
+	#header-wrap {
+		line-height: 135px!important;
+		.logo {
+			padding-bottom: 0px;
+			margin-bottom: -10px;
+		}
+		#navigation {
+				.sub-menu {
+					margin-top: -65px;
+					border: 1px solid $mdig-dark-green;
+				}
+		}
 	}
 }
+#header-inner-wrap.no-transparent { // sticky header....
+		#header-wrap {
+			#navigation {
+				.sub-menu {
+					margin-top: -25px;
+
+				}
+		}
+	}
+}
+
 /*** styling of content */
 
 /** sidebar
@@ -40,7 +59,12 @@ Version: 1.2
 		margin-bottom: 0px;
 	}
 }
+
 // footer
+#bottom-widgets {
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
 #footer {
     a.reach-logo {
     	color: white;
