@@ -44,7 +44,18 @@ Version: 1.2
 }
 
 /*** styling of content */
-
+// gallery...
+.portfolio-container {
+	.thumb-bg {
+		background: none!important;
+	}
+	.like-button-wrap {
+		display: none;
+	}
+	.portfolio-overlay-icon {
+		background-image: url("./images/MDI-grows-gallery-emblem.png");
+	}
+}
 /** sidebar
 
 /** footer **/

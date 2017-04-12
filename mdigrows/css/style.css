@@ -53,6 +53,13 @@ i.fa-pull-right {
   margin-top: -25px; }
 
 /*** styling of content */
+.portfolio-container .thumb-bg {
+  background: none !important; }
+.portfolio-container .like-button-wrap {
+  display: none; }
+.portfolio-container .portfolio-overlay-icon {
+  background-image: url("./images/MDI-grows-gallery-emblem.png"); }
+
 /** sidebar
 
 /** footer **/
