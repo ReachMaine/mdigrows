@@ -20,7 +20,7 @@ i.fa-pull-right {
 /* ----------- end typography ----------- */
 /* standard Reach styling of Oshin */
 .title-module-wrap.page-title-module-custom {
-  padding: 10px 0px; }
+  padding: 20px 0px; }
 
 .left-sidebar-page,
 .right-sidebar-page,
@@ -59,6 +59,11 @@ i.fa-pull-right {
   display: none; }
 .portfolio-container .portfolio-overlay-icon {
   background-image: url("./images/MDI-grows-gallery-emblem.png"); }
+
+.tatsu-success, .wpcf7-response-output.wpcf7-mail-sent-ok {
+  background-color: white;
+  font-family: "Libre Baskerville", "Open Sans", Arial, sans-serif;
+  border: 1px solid #47983F; }
 
 /** sidebar
 

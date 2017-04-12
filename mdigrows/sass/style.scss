@@ -56,6 +56,13 @@ Version: 1.2
 		background-image: url("./images/MDI-grows-gallery-emblem.png");
 	}
 }
+// cf7
+.tatsu-success, .wpcf7-response-output.wpcf7-mail-sent-ok {
+	background-color: white;
+	font-family: "Libre Baskerville", "Open Sans", Arial, sans-serif;
+	border: 1px solid $mdig-dark-green;
+}
+
 /** sidebar
 
 /** footer **/
