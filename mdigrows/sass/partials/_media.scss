@@ -9,6 +9,18 @@
 			}
 		}
 	}
+	.breadcrumbs {
+		display: none;
+	}
+	.page-title-module-custom .page-title-custom,
+	h1 {
+		font-size: 2.5em!important;
+		line-height: initial!important;
+	}
+	h2 {
+		font-size: 2.0em!important;
+		line-height: initial!important;
+	}
 	#sb-slidebar-content {
 		#slidebar-menu {
 			.mobile-sub-menu-controller {

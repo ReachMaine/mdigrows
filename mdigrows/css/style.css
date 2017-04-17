@@ -85,3 +85,15 @@ i.fa-pull-right {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (max-width: 767px) {
+  .breadcrumbs {
+    display: none; }
+
+  .page-title-module-custom .page-title-custom,
+  h1 {
+    font-size: 2.5em !important;
+    line-height: initial !important; }
+
+  h2 {
+    font-size: 2em !important;
+    line-height: initial !important; } }
