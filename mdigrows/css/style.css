@@ -51,6 +51,21 @@ i.fa-pull-right {
     width: 100%;
     height: 100%; }
 
+/* basic css stuff */
+.reach-responsive-video {
+  position: relative;
+  padding-bottom: 50.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 1em; }
+  .reach-responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 #header-inner-wrap #header-wrap {
