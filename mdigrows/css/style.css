@@ -93,6 +93,17 @@ i.fa-pull-right {
   font-family: "Libre Baskerville", "Open Sans", Arial, sans-serif;
   border: 1px solid #47983F; }
 
+/* blog  */
+.archive #content #content-wrap {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+.post-bottom-details,
+.post-meta.post-comments,
+.post-meta.post-category,
+.post-meta.post-author .post-meta-sep {
+  display: none; }
+
 /** sidebar
 
 /** footer **/
@@ -113,6 +124,12 @@ i.fa-pull-right {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (min-width: 960px) {
+  .saboxplugin-wrap .saboxplugin-desc .vcard.author {
+    width: 80%; } }
+@media only screen and (min-width: 768px) {
+  .saboxplugin-wrap .saboxplugin-desc .vcard.author {
+    width: 73%; } }
 @media only screen and (max-width: 767px) {
   .breadcrumbs {
     display: none; }
@@ -124,4 +141,7 @@ i.fa-pull-right {
 
   h2 {
     font-size: 2em !important;
-    line-height: initial !important; } }
+    line-height: initial !important; }
+
+  #main-wrapper .saboxplugin-wrap .saboxplugin-desc .vcard.author {
+    width: 100%; } }

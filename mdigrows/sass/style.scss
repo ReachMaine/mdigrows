@@ -46,6 +46,12 @@ Version: 1.2
 }
 
 /*** styling of content */
+
+// author box using plug
+.saboxplugin-wrap {
+
+}
+
 // gallery...
 .portfolio-container {
 	.thumb-bg {
@@ -64,6 +70,19 @@ Version: 1.2
 	font-family: "Libre Baskerville", "Open Sans", Arial, sans-serif;
 	border: 1px solid $mdig-dark-green;
 }
+/* blog  */
+	.archive #content #content-wrap {
+			padding-top: 0px;
+			padding-bottom: 0px;
+	}
+	// hide the 'posted in' category on blog posts
+	.post-bottom-details,
+	.post-meta.post-comments,
+	.post-meta.post-category,
+	.post-meta.post-author .post-meta-sep  { // hide the separator
+		display: none;
+	}
+
 
 /** sidebar
 
