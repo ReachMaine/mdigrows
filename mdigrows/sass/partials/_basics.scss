@@ -14,3 +14,14 @@
         height: 100%;
 	}
 }
+
+.view-full-post {
+	background-color: $mdig-dark-green;
+	text-align: center;
+	border-radius: 3px;
+	a.view-full-post-btn {
+		color: white;
+		padding: 10px;
+		display: block; // make whole block clickable
+	}
+}

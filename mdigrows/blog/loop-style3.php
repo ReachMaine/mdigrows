@@ -1,4 +1,7 @@
 <?php
+/* mods
+  - 22March18 zig - add the readmore. - easier than using filter
+*/
 $page_id = be_get_page_id();
 global $blog_attr, $more_text;
 $post_classes = get_post_class();
@@ -49,6 +52,7 @@ $post_format = get_post_format();
 					       	 			    echo '<div class="be-wrap clearfix be-section-pad">'.$content.'</div>';
 					       	 			} else {
 											the_excerpt();
+											echo '<div class="view-full-post"><a href="'. get_permalink(get_the_ID()) . '" class="view-full-post-btn">'.__('Read More','oshin').'</a></div>'; /* zig add */
 										}
 									} else {
 										// the_content( __('Read More','oshin') );

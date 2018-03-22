@@ -66,6 +66,15 @@ i.fa-pull-right {
     width: 100%;
     height: 100%; }
 
+.view-full-post {
+  background-color: #47983F;
+  text-align: center;
+  border-radius: 3px; }
+  .view-full-post a.view-full-post-btn {
+    color: white;
+    padding: 10px;
+    display: block; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 #header-inner-wrap #header-wrap {
