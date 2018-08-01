@@ -49,7 +49,12 @@ Version: 1.2
 
 // author box using plug
 .saboxplugin-wrap {
-
+	.saboxplugin-authorname {
+		a.vcard {
+			width: auto;
+			padding-right: 8px;
+		}
+	}
 }
 
 // gallery...

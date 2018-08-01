@@ -90,6 +90,10 @@ i.fa-pull-right {
   margin-top: -25px; }
 
 /*** styling of content */
+.saboxplugin-wrap .saboxplugin-authorname a.vcard {
+  width: auto;
+  padding-right: 8px; }
+
 .portfolio-container .thumb-bg {
   background: none !important; }
 .portfolio-container .like-button-wrap {
@@ -153,5 +157,14 @@ i.fa-pull-right {
     font-size: 2em !important;
     line-height: initial !important; }
 
-  #main-wrapper .saboxplugin-wrap .saboxplugin-desc .vcard.author {
+  #main-wrapper {
+    /* .saboxplugin-wrap {
+    	.saboxplugin-desc {
+    		.vcard.author {
+    			width: 100%;
+    		}
+    	}
+    } // */ } }
+@media only screen and (max-width: 480px) {
+  .saboxplugin-wrap .saboxplugin-authorname a.vcard {
     width: 100%; } }

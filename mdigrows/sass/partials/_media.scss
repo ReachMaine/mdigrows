@@ -74,12 +74,21 @@
 			}
 		}
 		// author box using plug
-		.saboxplugin-wrap {
+		/* .saboxplugin-wrap {
 			.saboxplugin-desc {
 				.vcard.author {
 					width: 100%;
 				}
 			}
+		} // */
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.saboxplugin-wrap {
+		.saboxplugin-authorname a.vcard {
+			width: 100%;
 		}
 	}
+
 }
